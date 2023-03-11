@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title> Task 1 -:Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="formvads.js"></script>
+    </head>
+    <style>
+        body {
+          background-image: url('euu.jpg');
+        }
+        </style>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center"><b>Post Event Survey Form</b></h1>
+            <p id="description" class="describtion text-center"><u><i>Thank you for taking the time to complete this survey.</i></u></p>
+        </header>
+        <br>
+        <form id="survey-form">
+            <div id = error class="form-group">
+                <label id="name-label"> Name</label>
+                <input type="text" id="named" class="form-control" placeholder="Enter your name" >
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="email-label"> Email</label>
+                <input type="text" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="number-label"> Age</label>
+                <input type="number" id="number" class="clue" placeholder="Enter your age">
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> Company Name</label>
+                <input type="text" name="company" id="company" class="form-control" placeholder="Enter your company">
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> What best describes your role ?</label>
+                <select id="dropdown" name="role" class="form-control">
+                <option>Student</option>
+                <option>Full-time job</option>
+                <option>Part-time job</option>
+                <option>Other</option>
+                <option>None</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> How would you rate the speaker/session of the event ?</label>
+                <select id="dropdown" name="role" class="form-control">
+                <option>Good</option>
+                <option>Best</option>
+                <option>Moderate</option>
+                <option>Bad</option>
+                <option>None</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> Which elements of the event did you like the most?</label>
+                <input type="text" name="role" id='elementy' class="form-control" placeholder="Type here..">
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> How did you feel about the duration of the content?</label>
+                <select id="dropdown" name="role" class="form-control">
+                <option>Good</option>
+                <option>Best</option>
+                <option>Bad</option>
+                <option>None</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> Would you recommend this event as a positive volunteer opportunity to your network?</label>
+                <select id="dropdown" name="role" class="form-control">
+                <option>Yes</option>
+                <option>No</option>
+                <option>None</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> Do you have a friend or colleague who would enjoy speaking at our future events?</label>
+                <select id="dropdown" name="role" class="form-control">
+                <option>Yes</option>
+                <option>No</option>
+                <option>None</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label id="company-label"> Please share your thoughts on the event as a whole.</label>
+                <input type="text" name="role" id="thought" class="form-control" size="80" placeholder="Type here..">
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+                <button type="submit" name="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</html>
